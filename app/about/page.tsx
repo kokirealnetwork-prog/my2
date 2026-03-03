@@ -4,6 +4,9 @@ export default async function page() {
     const data = await res.json()
     console.log(data)
     return (
-        <div>About Page: {data.title}</div>
+        <div>
+            <div>Ayanocha-n</div>
+            <div>About Page: {data.title}</div>
+        </div>
     )
 }
